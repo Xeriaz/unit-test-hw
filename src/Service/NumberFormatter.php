@@ -11,6 +11,7 @@ class NumberFormatter
             $result = '1.00M';
         } else if ($number >= 999500) {
             $result = round(($number/1000000), 2);
+            $result = number_format($result,2);
             $result .= 'M';
         }
 
