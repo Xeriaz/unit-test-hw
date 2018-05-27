@@ -4,6 +4,7 @@
 
 Parašyti NumberFormatter klasę padengtą parametriniais unit testais, kuri sutrumpintų duotą skaičių
 (float => string):
+
 ● Milijonas ir daugiau sutrumpinami iki milijonų ir paliekami du skaičiai po kablelio. (2835779 =>
 2.84M; 999500 => 1.00M) (Galioja 999 500 ≤ x < ∞)
 
