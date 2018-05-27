@@ -5,10 +5,13 @@ namespace App\Service;
 
 class NumberFormatter
 {
-    public function format(float $number): string
+    /**
+     * @param float $number
+     * @return null|string
+     */
+    public function format(float $number): ?string
     {
-        $result = 0;
-
+        $result = null;
 
         $explodedNumber = explode('.', $number);
 
