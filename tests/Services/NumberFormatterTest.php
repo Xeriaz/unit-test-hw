@@ -31,6 +31,7 @@ class NumberFormatterTest extends TestCase
             [533.1,      '533.10'],
             [66.6666,    '66.67' ],
             [12.00,      '12'    ],
+            [0,          '0'     ],
 
 //          NEGATIVE VALUES
             [-2835779,    '-2.84M' ],

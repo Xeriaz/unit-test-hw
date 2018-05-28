@@ -21,7 +21,7 @@ class NumberFormatter
             }
         }
 
-        if ((0 < $number && $number < 1000) || (-1000 < $number && $number < 0)) {
+        if ((0 <= $number && $number < 1000) || (-1000 < $number && $number < 0)) {
             $result = number_format($number,2, '.', ' ');
         }
         else if ((1000 <= $number && $number < 99950) || (-99950 < $number && $number <= -1000)) {
